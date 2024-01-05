@@ -32,13 +32,13 @@
         "body":[
             "import { NextResponse } from 'next/server'",
             "",
-            "export function GET(){${1:first}}",
+            "export function GET(){${1}}",
             "",
-            "export function POST(){${2:second}",
+            "export function POST(){${2}}",
             "",
-            "export function PUT(){${3:third}",
+            "export function PUT(){${3}}",
             "",
-            "export function DELETE(){${4:fourth}",
+            "export function DELETE(){${4}}",
         ],
         "description":"Next.js API methods with NextResponse",
         "scope": "typescript,typescriptreact,javascript,javascriptreact"
