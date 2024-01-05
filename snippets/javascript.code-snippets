@@ -1,0 +1,9 @@
+{
+    "test":{
+        "prefix":"test"
+        "body":[
+            "here's the test"
+        ],
+        "description":"Test Command"
+    }
+}
