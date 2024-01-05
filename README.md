@@ -2,7 +2,7 @@
 
 ![banner](static/banner.png)
 
-##### ez snippet (*easy-snippet*) provides snippets to write code like a pro, instantly and Ez Snippet has your back.
+##### ez snippet (*easy-snippet*) is a VS Code extension which provides snippets to write code like a pro, instantly.
 
 `Extension is in the development stage! Suggest what snippets should we add next. I aim to make the project community driven.`
 
