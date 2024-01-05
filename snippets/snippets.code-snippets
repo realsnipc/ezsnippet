@@ -1,0 +1,46 @@
+{
+    "Function Component":{
+        "prefix":"fc"
+        "body":[
+            "export default function ${1:${TM_FILENAME_BASE}}() {",
+            "  return (",
+            "    <>${1:first}</>",
+            "  )",
+            "}",
+            ""
+        ],
+        "description":"Function Component",
+        "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    },
+    "React Function Component":{
+        "prefix":"rfc"
+        "body":[
+            "import React from 'react'",
+            "",
+            "export default function ${1:${TM_FILENAME_BASE}}() {",
+            "  return (",
+            "    <>${1:first}</>",
+            "  )",
+            "}",
+            ""
+        ],
+        "description":"React Function Component",
+        "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    },
+    "Next.js Api Route":{
+        "prefix":"nxtapi"
+        "body":[
+            "import { NextResponse } from 'next/server'",
+            "",
+            "export function GET(){${1:first}}",
+            "",
+            "export function POST(){${2:second}",
+            "",
+            "export function PUT(){${3:third}",
+            "",
+            "export function DELETE(){${4:fourth}",
+        ],
+        "description":"Next.js API methods with NextResponse",
+        "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    },
+}
