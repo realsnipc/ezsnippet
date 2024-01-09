@@ -1,6 +1,6 @@
 ## Next.js Snippets
 
-- Next Api Routes ( prefix: nxtapi )
+- Next Api Routes - nxtapi
 ```
 import { NextResponse } from 'next/server'
 

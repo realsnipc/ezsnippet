@@ -1,14 +1,18 @@
 {
   "name": "ezsnippet",
   "displayName": "Ez Snippet",
-  "description": "Write code like a pro, instantly— Ez Snippet has your back.",
-  "version": "0.0.1",
+  "description": "Snippets which help you write code like a pro",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.85.0"
   },
+  "publisher": "snipc",
+  "scripts": {
+    "publish": "vsce publish"
+  },
   "repository": {
-    "type":"git",
-    "url":"https://github.com/realsnipc/ezsnippet"
+    "type": "git",
+    "url": "git+https://github.com/realsnipc/ezsnippet.git"
   },
   "icon": "static/128x128.png",
   "categories": [
@@ -26,6 +30,10 @@
       },
       {
         "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "html",
         "path": "./snippets/snippets.code-snippets"
       }
     ]

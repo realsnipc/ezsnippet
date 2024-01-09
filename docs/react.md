@@ -1,6 +1,6 @@
 ## React Snippets
 
-- Function Component ( prefix: fc )
+- Function Component - fc
 ```
 export default function react() {
   return (
@@ -9,7 +9,7 @@ export default function react() {
 }
 ```
 
-- React Function Component ( prefix: rfc )
+- React Function Component - rfc
 ```
 import React from 'react'
 
