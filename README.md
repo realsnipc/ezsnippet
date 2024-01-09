@@ -14,5 +14,5 @@
 * Contribute to the project by adding useful extensions to it.
 * Open a issue for snippets addition.
 * Star and help the project reach more people.
-* 
+
 **Enjoy!**
