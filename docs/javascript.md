@@ -1,15 +1,42 @@
 ## Next.js Snippets
 
-- Post Request - nxtapi
+- Post Request - pr
+
 ```
-import { NextResponse } from 'next/server'
+fetch("http://example.com/api/endpoint/", {
+method: "post",
+headers: {
+'Accept': 'application/json',
+'Content-Type': 'application/json'
+},
 
-export function GET(){}
+//make sure to serialize your JSON body
+body: JSON.stringify({
+name: myName,
+password: myPassword
+})
+})
 
-export function POST(){}
+```
 
-export function PUT(){}
+- Promises Post Request - ppr
 
-export function DELETE(){}
+```
+fetch("http://example.com/api/endpoint/", {
+method: "post",
+headers: {
+'Accept': 'application/json',
+'Content-Type': 'application/json'
+},
+
+//make sure to serialize your JSON body
+body: JSON.stringify({
+name: myName,
+password: myPassword
+})
+})
+.then( (response) => {
+//do something awesome that makes the world a better place
+});
 
 ```
