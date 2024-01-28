@@ -86,5 +86,24 @@
         "description":"Post Request with Fetch API",
         "scope": "typescript,typescriptreact,javascript,javascriptreact,html"
     },
+    "Post Request (Promises) ":{
+        "prefix":"rca"
+        "body":[
+            "fetch('http://example.com/api/endpoint/', {",
+            "method: 'post',",
+            "headers: {",
+            "'Content-Type': 'application/json',",
+            "}",
+            "body: JSON.stringify({",
+            "${1}",
+            "})",
+            "})",
+            ".then( (response) => {",
+            " //do something awesome that makes the world a better place",
+            "});"
+             ],
+        "description":"Post Request with Promises Fetch API",
+        "scope": "typescript,typescriptreact,javascript,javascriptreact,html"
+    },
     
 }
