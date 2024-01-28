@@ -1,8 +1,23 @@
-# ezsnippet 🌴
 
-![banner](static/banner.png)
 
-##### ez snippet (*easy-snippet*) is a VS Code extension which provides snippets to write code like a pro, instantly.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+
+  <h3 align="center"> ezsnippet 🌴</h3>
+
+  <p align="center">
+   VSCode extension which helps you to write code like a pro, instantly.
+    <br />
+    <a href="https://marketplace.visualstudio.com/items?itemName=snipc.ezsnippet"><strong>Visit »</strong></a>
+    <br />
+    <br />
+  </p>
+
+</div>
+
+![sdfg](static/banner.png)
+
 
 ## Snippets
 
