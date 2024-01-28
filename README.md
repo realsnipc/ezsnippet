@@ -7,6 +7,7 @@
 ## Snippets
 
 - [React.js](/docs/react.md)
+- [Javascript.js](/docs/javascript.md)
 - [Next.js](/docs/next.md)
 
 ## Contribute

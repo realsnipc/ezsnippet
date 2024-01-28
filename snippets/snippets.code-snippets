@@ -70,7 +70,7 @@
         "scope": "typescript,typescriptreact,javascript,javascriptreact"
     },
     "Post Request ":{
-        "prefix":"rca"
+        "prefix":"pr"
         "body":[
             "fetch('http://example.com/api/endpoint/', {",
             "method: 'post',",
@@ -87,7 +87,7 @@
         "scope": "typescript,typescriptreact,javascript,javascriptreact,html"
     },
     "Post Request (Promises) ":{
-        "prefix":"rca"
+        "prefix":"promisespr"
         "body":[
             "fetch('http://example.com/api/endpoint/', {",
             "method: 'post',",
