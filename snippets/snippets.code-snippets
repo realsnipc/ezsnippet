@@ -51,4 +51,22 @@
         "description":"UTF 8",
         "scope": "typescript,typescriptreact,javascript,javascriptreact,html"
     },
+    "React Context API":{
+        "prefix":"rca"
+        "body":[
+            "const UserContext = createContext(undefined);",
+            "",
+            "function UserProvider({ children }) {",
+            "return (",
+            "<UserContext.Provider value={${1}}>",
+            "{children}",
+            "</UserContext.Provider>",
+            ");",
+            "}",
+            "",
+            "export { UserProvider, UserContext };"
+             ],
+        "description":"React Context API with state and provider",
+        "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    },
 }
