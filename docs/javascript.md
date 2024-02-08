@@ -1,4 +1,4 @@
-## Next.js Snippets
+## JavaScript Snippets
 
 - Post Request - pr
 
